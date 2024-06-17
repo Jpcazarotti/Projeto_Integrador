@@ -1,3 +1,5 @@
+// Aparecer/ocultar botões das instituições
+
 document.addEventListener("DOMContentLoaded", function () {
   const buttonOnline = document.getElementById("button_aten_online");
   const buttonPresencial = document.getElementById("button_aten_presencial");
@@ -17,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Função para mostrar o número do Samu
+
 function toggleNumber() {
   var numberDiv = document.getElementById('samu-number');
   if (numberDiv.style.display === 'none' || numberDiv.style.display === '') {
@@ -25,3 +29,10 @@ function toggleNumber() {
       numberDiv.style.display = 'none';
   }
 }
+
+// Código abaixo responsável pelas animações
+
+AOS.init({
+  duration: 1000, 
+  once: true, 
+});
