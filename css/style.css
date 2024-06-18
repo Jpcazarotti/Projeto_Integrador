@@ -59,7 +59,7 @@ body {
 #banner,
 #bannertwo {
   position: relative;
-  background: url(img/depression-824998_1920.png) no-repeat;
+  background: url(/img/depression-824998_1920.png) no-repeat;
   background-size: cover;
   height: 900px;
   color: white;
@@ -190,11 +190,11 @@ body {
 }
 
 #rowonline {
-  padding: 20px;
+  padding-top: 7px;
 }
 
 #rowpresencial {
-  padding: 20px;
+  padding-bottom: 30px;
 }
 
 .bot {
