@@ -107,6 +107,13 @@ body {
   font-size: 50px;
 }
 
+.texto_banner_three {
+  content: "";
+  position: absolute;
+  top: 180px;
+  z-index: 2;
+}
+
 #bem_vindo {
   font-weight: 500;
 }
