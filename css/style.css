@@ -289,6 +289,26 @@ body {
   padding: 10px;
 }
 
+.h4pdp {
+  display: flex;
+  border-left: 5px rgba(49, 87, 224, 0.9) solid;
+  height: 45px;
+}
+
+.h4pdp2 {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ppdp {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
 footer {
   border-top: 1px rgba(73, 192, 220, 0.6) solid;
 }
